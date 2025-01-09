@@ -6,13 +6,15 @@ import java.util.ArrayList;
 import java.util.List;
 @Getter
 public class Library {
-    private List<Book> books;
     private List<Member> members;
+    private List<Book> books;
+
 
 
     public Library() {
-        books = new ArrayList<>();
         members = new ArrayList<>();
+        books = new ArrayList<>();
+
     }
 
 
